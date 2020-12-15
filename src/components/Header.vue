@@ -2,7 +2,7 @@
   <nav class="navbar">
     <a class="navbar-brand" href="#">
     <img :src="require('@/assets/logo.png')"></a>
-    <p> When you have to choose, choose adventure. </p>
+    <p> When you have a choice, choose adventure. </p>
   </nav>
 </template>
 
