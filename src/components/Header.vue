@@ -2,17 +2,7 @@
   <nav class="navbar">
     <a class="navbar-brand" href="#">
     <img :src="require('@/assets/logo.png')"></a>
-    <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link" aria-current="page" href="#">Videos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Photos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-    </ul>
+    <p> When you have to choose, choose adventure. </p>
   </nav>
 </template>
 
@@ -33,6 +23,12 @@ img{
   width:150px;
 }
 .navbar{
-  background-color:rgb(171, 222, 241);
+  background-color:rgb(12, 51, 36);
+  border-radius: 10px;
+}
+p{
+  color:rgb(19, 108, 167);
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size:x-large
 }
 </style>
