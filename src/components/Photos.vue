@@ -1,7 +1,7 @@
 <template>
 <div>
 <h3>Photos</h3> 
-<h5>Fall Trip Favorites</h5> 
+<h5>Fall Trip Favorites</h5>
 <div class="row">
   <figure class="col-md-4">
       <img alt="photo1" :src="require('@/assets/photo1.jpg')" class="img-fluid">
@@ -59,5 +59,8 @@ export default {
 <style scoped>
 h5{
     color:white
+}
+img{
+    border-radius: 20px;
 }
 </style>

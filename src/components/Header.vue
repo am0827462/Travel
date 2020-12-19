@@ -23,7 +23,7 @@ img{
   width:150px;
 }
 .navbar{
-  background-color:rgb(12, 51, 36);
+  background-color:rgb(1, 51, 32, .8);
   border-radius: 10px;
 }
 p{
