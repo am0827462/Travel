@@ -15,11 +15,32 @@
   <figure class="col-md-4">
       <img alt="photo4" :src="require('@/assets/photo4.jpg')" class="img-fluid">
   </figure>
-<figure class="col-md-4">
+    <figure class="col-md-4">
       <img alt="photo5" :src="require('@/assets/photo5.jpg')" class="img-fluid">
   </figure>
   <figure class="col-md-4">
       <img alt="photo6" :src="require('@/assets/photo6.jpg')" class="img-fluid">
+  </figure>
+</div>
+<h5>Summer Trip Favorites</h5> 
+<div class="row">
+  <figure class="col-md-4">
+      <img alt="summer1" :src="require('@/assets/summer1.jpg')" class="img-fluid">
+  </figure>
+  <figure class="col-md-4">
+      <img alt="summer2" :src="require('@/assets/summer2.jpg')" class="img-fluid">
+  </figure>
+  <figure class="col-md-4">
+      <img alt="summer3" :src="require('@/assets/summer3.jpg')" class="img-fluid">
+  </figure>
+  <figure class="col-md-4">
+      <img alt="summer4" :src="require('@/assets/summer4.jpg')" class="img-fluid">
+  </figure>
+    <figure class="col-md-4">
+      <img alt="summer5" :src="require('@/assets/summer5.jpg')" class="img-fluid">
+  </figure>
+  <figure class="col-md-4">
+      <img alt="summer6" :src="require('@/assets/summer6.jpg')" class="img-fluid">
   </figure>
 </div>
 </div>

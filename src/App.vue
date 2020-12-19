@@ -1,11 +1,16 @@
 <template>
   <div id="app">
     <div class="container">
-    <Header msg="Travel"/>
+    <Header id="header" msg="Travel"/>
+    <button type="button" class="btn btn-primary" v-scroll-to="'#map'">Map</button>
     <button type="button" class="btn btn-primary" v-scroll-to="'#videos'">Videos</button>
     <button type="button" class="btn btn-primary" v-scroll-to="'#photos'">Photos</button>
+    <Map id="map" />
+    <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button>
     <Videos id="videos"/>
+    <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button>
     <Photos id="photos"/>
+    <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button>
     </div>
   </div>
 </template>
@@ -14,13 +19,15 @@
 import Videos from './components/Videos.vue'
 import Header from './components/Header.vue'
 import Photos from './components/Photos.vue'
+import Map from './components/Map.vue'
 
 export default {
   name: 'App',
   components: {
     Videos,
     Header,
-    Photos
+    Photos,
+    Map
   }
 }
 </script>
