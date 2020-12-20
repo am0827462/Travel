@@ -9,8 +9,8 @@
     <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button>
     <Videos id="videos"/>
     <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button>
-    <Photos id="photos"/>
-    <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button>
+    <Lightbox id="photos" />
+    <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button> 
     </div>
   </div>
 </template>
@@ -18,17 +18,17 @@
 <script>
 import Videos from './components/Videos.vue'
 import Header from './components/Header.vue'
-import Photos from './components/Photos.vue'
 import Map from './components/Map.vue'
+import Lightbox from './components/Lightbox.vue'
 
 export default {
   name: 'App',
   components: {
     Videos,
     Header,
-    Photos,
-    Map
-  }
+    Map,
+    Lightbox
+  },
 }
 </script>
 
