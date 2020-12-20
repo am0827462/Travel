@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar" :style="{ backgroundImage: 'url(' + items.backgroundUrl + ')' }">
+  <nav class="navbar">
     <a class="navbar-brand" href="#">
     <img :src="require('@/assets/logo.png')"></a>
     <p> When you have a choice, choose adventure. </p>
@@ -12,13 +12,8 @@ export default {
   name: 'Header',
   props: {
     msg: String
-  },
-  data: function () {
-    return {
-      items:[
-         { backgroundUrl: require('@/assets/headerback.jpg') },
-      ]
-}}}
+  }
+  }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -29,6 +24,7 @@ img{
 }
 .navbar{
   border-radius: 10px;
+  background-image: url('~@/assets/headerback.jpg');
 }
 p{
   color:rgb(19, 108, 167);

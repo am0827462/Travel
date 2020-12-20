@@ -38,7 +38,8 @@ body{
   background-size: cover;
 }
 .container{
-  background-color:rgb(69, 115, 86,.8)
+  background-color:rgb(69, 115, 86,.8);
+  overflow:auto;
 }
 .btn{
   margin: 5px;

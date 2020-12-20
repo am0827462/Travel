@@ -93,8 +93,8 @@ export default {
 </script>
 <style scoped>
 .image{
+    float:left;
     margin: 10px;
-    float: left;
     width: 350px;
     height: 250px;
     border-radius:20px;
