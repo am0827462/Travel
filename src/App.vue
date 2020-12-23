@@ -13,7 +13,8 @@
     <Lightbox id="photos" />
     <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button> 
     <Quote id="quote" v-bind:bodyprop="body" v-bind:authorprop="author" v-bind:imageprop="image" v-bind:nasaurlprop="nasaurl" v-bind:explainprop="explain" v-bind:titleprop="title"/>
-    <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button> 
+    <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button>
+    <Footer />
     </div>
   </div>
 </template>
@@ -25,6 +26,7 @@ import Map from './components/Map.vue'
 import Lightbox from './components/Lightbox.vue'
 import axios from 'axios'
 import Quote from './components/Quote.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
@@ -33,7 +35,8 @@ export default {
     Header,
     Map,
     Lightbox,
-    Quote
+    Quote,
+    Footer
   },
   data(){
     return{

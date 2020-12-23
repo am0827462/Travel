@@ -31,7 +31,9 @@ export default {
 </script>
 <style scoped>
  img{
-    width: 538px;
-    height: 420px;
+    object-fit:cover;
+ }
+ .row{
+     clear:both;
  }
 </style>
