@@ -13,3 +13,10 @@ export default {
   }
 }
 </script>
+<style scoped>
+img{
+  border-style: double;
+  border-color:rgb(3, 62, 102);
+  border-width: thick;
+}
+</style>
