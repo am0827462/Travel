@@ -79,7 +79,7 @@ export default {
 <style>
 body{
   background-image: url('./assets/background.jpg');
-  background-size: cover;
+  background-size:cover;
 }
 .container{
   background-color:rgb(69, 115, 86,.8);

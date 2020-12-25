@@ -2,6 +2,7 @@
 <footer class="bg-light text-center text-lg-start">
   <div class="text-center p-3">
     <p class="text-white">© 2020 Copyright: Gabe&Angie Co.</p>
+    <a href = "mailto: angelammclaughlin@gmail.com">Contact Us</a>
   </div>
 </footer>
 </template>
