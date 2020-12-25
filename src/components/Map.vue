@@ -1,6 +1,6 @@
 <template>
-<div>
-    <h3>Upcoming Trip Map</h3>
+<div id="map">
+    <h3>Current Trip Map</h3>
     <img alt="map" :src="require('@/assets/map.jpg')" class="img-fluid">
 </div>
 </template>
@@ -18,5 +18,8 @@ img{
   border-style: double;
   border-color:rgb(3, 62, 102);
   border-width: thick;
+}
+#map{
+  clear:both;
 }
 </style>

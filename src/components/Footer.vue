@@ -1,7 +1,7 @@
 <template>
 <footer class="bg-light text-center text-lg-start">
   <div class="text-center p-3">
-    <p class="text-white">© 2020 Copyright: Choose Adventure Co.</p>
+    <p class="text-white">© 2020 Copyright: Gabe&Angie Co.</p>
   </div>
 </footer>
 </template>
