@@ -26,6 +26,36 @@ export default {
     return {
       items: [
         {
+          title: 'Drive to Alpine TX',
+          description: "Sunset",
+          src: require('@/assets/current11.jpg'),
+        },
+        {
+          title: 'Caprock Canyons State Park',
+          description: "More Bison!",
+          src: require('@/assets/current10.jpg'),
+        },
+        {
+          title: 'Caprock Canyons State Park',
+          description: "Not scared at all",
+          src: require('@/assets/current12.jpg'),
+        },
+        {
+          title: 'Caprock Canyons State Park',
+          description: "Bison!",
+          src: require('@/assets/current9.jpg'),
+        },
+        {
+          title: 'Caprock Canyons State Park',
+          description: "Apollo Lookin",
+          src: require('@/assets/current8.jpg'),
+        },
+        {
+          title: 'Caprock Canyons State Park',
+          description: "Visitor Center",
+          src: require('@/assets/current7.jpg'),
+        },
+        {
           title: 'Palo Duro Canyon State Park',
           description: "Beginning of Lighthouse Trail",
           src: require('@/assets/current1.jpg'),

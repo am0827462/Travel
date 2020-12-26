@@ -17,8 +17,8 @@
     <Lightbox id="photos" />
     <div style="clear: both;"></div>
     <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button> 
-    <h3>Fun Stuff - API Feeds</h3>
-    <Quote id="quote" v-bind:bodyprop="body" v-bind:authorprop="author" v-bind:imageprop="image" v-bind:nasaurlprop="nasaurl" v-bind:explainprop="explain" v-bind:titleprop="title"/>
+    <h3 id="quote">Fun Stuff</h3>
+    <Quote v-bind:bodyprop="body" v-bind:authorprop="author" v-bind:imageprop="image" v-bind:nasaurlprop="nasaurl" v-bind:explainprop="explain" v-bind:titleprop="title"/>
     <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button>
     <Footer />
     </div>
