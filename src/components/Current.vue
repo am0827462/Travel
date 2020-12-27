@@ -26,6 +26,36 @@ export default {
     return {
       items: [
         {
+          title: 'Big Bend National Park',
+          description: "Ross Maxwell Scenic Dr",
+          src: require('@/assets/current18.jpg'),
+        },
+        {
+          title: 'Big Bend National Park',
+          description: "Santa Elena Canyon",
+          src: require('@/assets/current17.jpg'),
+        },
+        {
+          title: 'Big Bend National Park',
+          description: "Park Route 12",
+          src: require('@/assets/current16.jpg'),
+        },
+        {
+          title: 'Big Bend National Park',
+          description: "Park Route 12",
+          src: require('@/assets/current15.jpg'),
+        },
+        {
+          title: 'Big Bend National Park',
+          description: "Boquillas Canyon Overlook",
+          src: require('@/assets/current14.jpg'),
+        },
+        {
+          title: 'Big Bend National Park',
+          description: "Rio Grande - You can see Mexico!",
+          src: require('@/assets/current13.jpg'),
+        },
+        {
           title: 'Drive to Alpine TX',
           description: "Sunset",
           src: require('@/assets/current11.jpg'),
