@@ -26,6 +26,61 @@ export default {
     return {
       items: [
         {
+          title: 'White Sands National Park',
+          description: "Hugs",
+          src: require('@/assets/current29.jpg'),
+        },
+        {
+          title: 'White Sands National Park',
+          description: "Send in the Dog's Eyes",
+          src: require('@/assets/current28.jpg'),
+        },
+        {
+          title: 'White Sands National Park',
+          description: "New Mexico",
+          src: require('@/assets/current27.jpg'),
+        },
+        {
+          title: 'White Sands National Park',
+          description: "New Mexico",
+          src: require('@/assets/current26.jpg'),
+        },
+        {
+          title: 'White Sands National Park',
+          description: "New Mexico",
+          src: require('@/assets/current25.jpg'),
+        },
+        {
+          title: 'Carlsbad Carverns',
+          description: "Carlsbad, NM",
+          src: require('@/assets/current24.jpg'),
+        },
+        {
+          title: 'Carlsbad Carverns',
+          description: "Carlsbad, NM",
+          src: require('@/assets/current23.jpg'),
+        },
+        {
+          title: 'Carlsbad Carverns',
+          description: "Carlsbad, NM",
+          src: require('@/assets/current22.jpg'),
+        },
+        {
+          title: 'Tethered Aerostat Radar System',
+          description: "West Texas - Middle of Nowhere",
+          src: require('@/assets/current21.jpg'),
+        },
+        {
+          title: 'Tethered Aerostat Radar System',
+          description: "West Texas - Middle of Nowhere",
+          src: require('@/assets/current20.jpg'),
+        },
+        {
+          title: 'Prada Marfa',
+          description: "West Texas - Middle of Nowhere",
+          src: require('@/assets/current19.jpg'),
+        },
+        {
           title: 'Big Bend National Park',
           description: "Ross Maxwell Scenic Dr",
           src: require('@/assets/current18.jpg'),
@@ -59,6 +114,11 @@ export default {
           title: 'Drive to Alpine TX',
           description: "Sunset",
           src: require('@/assets/current11.jpg'),
+        },
+        {
+          title: 'Caprock Canyons State Park',
+          description: "Prarie Dog",
+          src: require('@/assets/current30.jpg'),
         },
         {
           title: 'Caprock Canyons State Park',
