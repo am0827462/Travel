@@ -6,7 +6,7 @@
     <button type="button" class="btn btn-primary" v-scroll-to="'#map'">Map</button>
     <button type="button" class="btn btn-primary" v-scroll-to="'#videos'">Videos</button>
     <button type="button" class="btn btn-primary" v-scroll-to="'#photos'">Past Photos</button>
-    <button type="button" class="btn btn-primary" v-scroll-to="'#quote'">Fun Stuff</button>
+    <!--<button type="button" class="btn btn-primary" v-scroll-to="'#quote'">Fun Stuff</button>-->
     <Current id="current" />
     <div style="clear: both;"></div>
     <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button>
@@ -17,9 +17,8 @@
     <Lightbox id="photos" />
     <div style="clear: both;"></div>
     <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button> 
-    <h3 id="quote">Fun Stuff</h3>
-    <Quote v-bind:bodyprop="body" v-bind:authorprop="author" v-bind:imageprop="image" v-bind:nasaurlprop="nasaurl" v-bind:explainprop="explain" v-bind:titleprop="title"/>
-    <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button>
+    <!--<Quote v-bind:bodyprop="body" v-bind:authorprop="author" v-bind:imageprop="image" v-bind:nasaurlprop="nasaurl" v-bind:explainprop="explain" v-bind:titleprop="title"/>
+    <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button>-->
     <Footer />
     </div>
   </div>
@@ -31,7 +30,7 @@ import Header from './components/Header.vue'
 import Map from './components/Map.vue'
 import Lightbox from './components/Lightbox.vue'
 import axios from 'axios'
-import Quote from './components/Quote.vue'
+//import Quote from './components/Quote.vue'
 import Footer from './components/Footer.vue'
 import Current from './components/Current.vue'
 
@@ -42,7 +41,7 @@ export default {
     Header,
     Map,
     Lightbox,
-    Quote,
+    //Quote,
     Footer,
     Current
   },

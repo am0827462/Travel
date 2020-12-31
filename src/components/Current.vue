@@ -26,13 +26,73 @@ export default {
     return {
       items: [
         {
+          title: 'Gila National Forest',
+          description: "Catwalk Trail",
+          src: require('@/assets/current42.jpg'),
+        },
+        {
+          title: 'Gila National Forest',
+          description: "Catwalk Trail",
+          src: require('@/assets/current41.jpg'),
+        },
+        {
+          title: 'Gila National Forest',
+          description: "Catwalk Trail - Apollo Rock Climbing",
+          src: require('@/assets/current40.jpg'),
+        },
+        {
+          title: 'Gila National Forest',
+          description: "Catwalk Trail",
+          src: require('@/assets/current39.jpg'),
+        },
+        {
+          title: 'Gila National Forest',
+          description: "Apollo air swimming",
+          src: require('@/assets/current38.jpg'),
+        },
+        {
+          title: 'Gila National Forest',
+          description: "Catwalk Trail",
+          src: require('@/assets/current37.jpg'),
+        },
+        {
+          title: 'Gila National Forest',
+          description: "Catwalk Trail",
+          src: require('@/assets/current36.jpg'),
+        },
+        {
+          title: 'Gila National Forest',
+          description: "Silver City, NM",
+          src: require('@/assets/current35.jpg'),
+        },   
+        {
+          title: 'Gila Cliff Dwellings',
+          description: "Silver City, NM",
+          src: require('@/assets/current34.jpg'),
+        },     
+        {
+          title: 'Gila Cliff Dwellings',
+          description: "Silver City, NM",
+          src: require('@/assets/current33.jpg'),
+        },        
+        {
+          title: 'Gila Cliff Dwellings',
+          description: "Silver City, NM",
+          src: require('@/assets/current32.jpg'),
+        },        
+        {
+          title: 'Gila Cliff Dwellings',
+          description: "Silver City, NM",
+          src: require('@/assets/current31.jpg'),
+        },
+        {
           title: 'White Sands National Park',
           description: "Hugs",
           src: require('@/assets/current29.jpg'),
         },
         {
           title: 'White Sands National Park',
-          description: "Send in the Dog's Eyes",
+          description: "Sand in the Dog's Eyes",
           src: require('@/assets/current28.jpg'),
         },
         {
