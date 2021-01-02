@@ -100,4 +100,8 @@ export default {
     border-radius:20px;
     background-size: cover;
 }
+h3{
+  color:white;
+  text-align:center;
+}
 </style>

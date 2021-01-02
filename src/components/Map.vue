@@ -21,5 +21,10 @@ img{
 }
 #map{
   clear:both;
+  text-align:center;
+}
+h3{
+  color:white;
+  text-align:center;
 }
 </style>

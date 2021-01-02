@@ -79,9 +79,11 @@ export default {
 body{
   background-image: url('./assets/background.jpg');
   background-size:cover;
+  background-attachment: fixed;
 }
 .container{
-  background-color:rgb(69, 115, 86,.8);
+  background-color:rgba(68, 110, 88, 0.7);
+  box-shadow: rgb(51, 51, 51) 10px 0px 40px, rgb(51, 51, 51) -15px 0px 50px;
   overflow:auto;
 }
 .btn{
@@ -90,5 +92,6 @@ body{
 }
 h3{
   clear:both;
+  text-align:center;
 }
 </style>

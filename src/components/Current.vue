@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="align-middle">
     <CoolLightBox 
       :items="items" 
       :index="index"
@@ -25,6 +25,36 @@ export default {
   data: function () {
     return {
       items: [
+        {
+          title: 'Petrified Forest National Park',
+          description: "Crystal Forest Trail",
+          src: require('@/assets/current48.jpg'),
+        },
+        {
+          title: 'Petrified Forest National Park',
+          description: "Giant Logs Trail",
+          src: require('@/assets/current47.jpg'),
+        },
+        {
+          title: 'Petrified Forest National Park',
+          description: "Blue Mesa Trailhead",
+          src: require('@/assets/current46.jpg'),
+        },
+        {
+          title: 'Petrified Forest National Park',
+          description: "Blue Mesa Trailhead",
+          src: require('@/assets/current45.jpg'),
+        },
+        {
+          title: 'Meteor Crater Natural Ladmark',
+          description: "Winslow, AZ",
+          src: require('@/assets/current44.jpg'),
+        },
+        {
+          title: 'Montezuma Castle National Monument',
+          description: "Camp Verde, AZ",
+          src: require('@/assets/current43.jpg'),
+        },
         {
           title: 'Gila National Forest',
           description: "Catwalk Trail",
@@ -249,5 +279,8 @@ export default {
     height: 250px;
     border-radius:20px;
     background-size: cover;
+}
+h3{
+  color:white;
 }
 </style>

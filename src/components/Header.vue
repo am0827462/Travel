@@ -21,6 +21,7 @@ export default {
 img{
   height:150px;
   width:150px;
+  background-color:rgb(5, 5, 5, .7);
 }
 .navbar{
   border-radius: 10px;
@@ -30,5 +31,6 @@ p{
   color:rgb(19, 108, 167);
   font-family: Brush Script MT, Brush Script Std, cursive;
   font-size:x-large;
+  background-color:rgb(5, 5, 5, .7);
 }
 </style>

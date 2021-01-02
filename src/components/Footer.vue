@@ -1,8 +1,7 @@
 <template>
 <footer class="bg-light text-center text-lg-start">
   <div class="text-center p-3">
-    <p class="text-white">© 2020 Copyright: Gabe&Angie Co.</p>
-    <a href = "mailto: angelammclaughlin@gmail.com">Contact Us</a>
+    <a class="text-white" href = "mailto: angelammclaughlin@gmail.com">© 2020 Copyright: Gabe&Angie Co.</a>
   </div>
 </footer>
 </template>
@@ -19,5 +18,8 @@ export default {
 footer{
     border-radius: 10px;
     background-image: url('~@/assets/headerback.jpg');
+}
+a{
+  background-color:rgb(5, 5, 5, .7);
 }
 </style>
