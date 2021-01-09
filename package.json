@@ -16,6 +16,7 @@
     "vue": "^2.6.11",
     "vue-analytics": "^5.22.1",
     "vue-cool-lightbox": "^2.6.9",
+    "vue-instagram": "^3.0.0",
     "vue-scrollto": "^2.20.0"
   },
   "devDependencies": {

@@ -7,7 +7,7 @@
     </CoolLightBox>
 
     <div class="images-wrapper">
-    <h3>Current Trip Photos</h3>
+    <h3>December Trip Photos</h3>
       <div
         class="image"
         v-for="(image, imageIndex) in items"

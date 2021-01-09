@@ -2,18 +2,19 @@
   <div id="app">
     <div class="container">
     <Header id="header" msg="Travel"/>
-    <button type="button" class="btn btn-primary" v-scroll-to="'#current'">Current Trip</button>
-    <button type="button" class="btn btn-primary" v-scroll-to="'#map'">Map</button>
-    <button type="button" class="btn btn-primary" v-scroll-to="'#videos'">Videos</button>
+    
+    <button type="button" class="btn btn-primary" v-scroll-to="'#videos'">Videos</button>    
+    <button type="button" class="btn btn-primary" v-scroll-to="'#current'">December Trip</button>
     <button type="button" class="btn btn-primary" v-scroll-to="'#photos'">Past Photos</button>
     <!--<button type="button" class="btn btn-primary" v-scroll-to="'#quote'">Fun Stuff</button>-->
+    
+    <Videos id="videos"/>
+    <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button>    
+    
     <Current id="current" />
     <div style="clear: both;"></div>
     <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button>
-    <Map id="map" />
-    <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button>
-    <Videos id="videos"/>
-    <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button>
+
     <Lightbox id="photos" />
     <div style="clear: both;"></div>
     <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button> 
@@ -27,7 +28,6 @@
 <script>
 import Videos from './components/Videos.vue'
 import Header from './components/Header.vue'
-import Map from './components/Map.vue'
 import Lightbox from './components/Lightbox.vue'
 import axios from 'axios'
 //import Quote from './components/Quote.vue'
@@ -39,7 +39,6 @@ export default {
   components: {
     Videos,
     Header,
-    Map,
     Lightbox,
     //Quote,
     Footer,
