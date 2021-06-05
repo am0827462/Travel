@@ -26,6 +26,36 @@ export default {
     return {
       items: [
         {
+          title: 'Prada Marfa',
+          description: "West Texas - Middle of Nowhere",
+          src: require('@/assets/current19.jpg'),
+        },
+        {
+          title: 'Gila Cliff Dwellings',
+          description: "Silver City, NM",
+          src: require('@/assets/current31.jpg'),
+        },
+        {
+          title: 'Petrified Forest National Park',
+          description: "Crystal Forest Trail",
+          src: require('@/assets/current48.jpg'),
+        },
+        {
+          title: 'Petrified Forest National Park',
+          description: "Blue Mesa Trailhead",
+          src: require('@/assets/current45.jpg'),
+        },
+        {
+          title: 'White Sands National Park',
+          description: "Sand in the Dog's Eyes",
+          src: require('@/assets/current28.jpg'),
+        },
+        {
+          title: 'Gila National Forest',
+          description: "Catwalk Trail",
+          src: require('@/assets/current36.jpg'),
+        },
+        {
           title: 'Great Smoky Mountains National Park',
           description: "Newfound Gap near Clingmans Dome",
           src: require('@/assets/photo1.jpg'),

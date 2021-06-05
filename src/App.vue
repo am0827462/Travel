@@ -4,7 +4,7 @@
     <Header id="header" msg="Travel"/>
     
     <button type="button" class="btn btn-primary" v-scroll-to="'#videos'">Videos</button>    
-    <button type="button" class="btn btn-primary" v-scroll-to="'#current'">December Trip</button>
+    <button type="button" class="btn btn-primary" v-scroll-to="'#current'">May Trip</button>
     <button type="button" class="btn btn-primary" v-scroll-to="'#photos'">Past Photos</button>
     <!--<button type="button" class="btn btn-primary" v-scroll-to="'#quote'">Fun Stuff</button>-->
     
