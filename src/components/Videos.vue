@@ -1,8 +1,10 @@
 <template>
   <div>
-    <h3>Iceland!</h3>
-    <iframe width="800" height="500" src="https://www.youtube.com/embed/H9hRBMfa9Gs" id="iceland" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <h3>Past Videos</h3>
+    <h3>Galapagos!</h3>
+    <iframe width="800" height="500" src="https://www.youtube.com/embed/6hwrbUlhhYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Other Videos</h3>
+    <iframe width="540" height="315" src="https://www.youtube.com/embed/TEbNL2BQ6ek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="540" height="315" src="https://www.youtube.com/embed/7stnAoThUew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    <iframe width="540" height="315" src="https://www.youtube.com/embed/tHgANDn8jh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="540" height="315" src="https://www.youtube.com/embed/H9e6tyMzDOA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="540" height="315" src="https://www.youtube.com/embed/h3EBO3xLEOI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="540" height="315" src="https://www.youtube.com/embed/8LGp-sl39T0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -7,7 +7,7 @@
     </CoolLightBox>
 
     <div class="images-wrapper">
-    <h3>Past Trip Photos</h3>
+    <h3>Photos</h3>
       <div
         class="image"
         v-for="(image, imageIndex) in items"
@@ -25,6 +25,35 @@ export default {
   data: function () {
     return {
       items: [
+        {
+          title: 'Galapagos',
+          description: "Mother Sea Turtle going back to the ocean",
+          src: require('@/assets/galapagos.jpeg'),
+        },
+        {
+          title: 'Dettifoss Waterfall',
+          description: "Scene in the movie Prometheus",
+          src: require('@/assets/iceland1.jpg'),
+        },
+        {
+          title: 'Katla Ice Cave',
+          src: require('@/assets/iceland2.jpg'),
+        },
+        {
+          title: 'Nohoch Che-en Caves Branch Archaelogical Reserve',
+          description: "Cave Tubing!",
+          src: require('@/assets/belize1.jpg'),
+        },
+        {
+          title: 'Shark Ray Alley',
+          description: "Crystal Forest Trail",
+          src: require('@/assets/belize7.jpg'),
+        },
+        {
+          title: 'Airplane Tour',
+          description: "The Great Blue Hole",
+          src: require('@/assets/belize8.jpg'),
+        },
         {
           title: 'Prada Marfa',
           description: "West Texas - Middle of Nowhere",
