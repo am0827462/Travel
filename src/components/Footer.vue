@@ -3,7 +3,7 @@
     <footer>
             <div class="social">
               <a href="mailto: angelammclaughlin@gmail.com"><font-awesome-icon icon="envelope-square" /></a>
-              <a href="https://www.instagram.com/rockothebandit/"><font-awesome-icon :icon="[ 'fab', 'instagram' ]" /></a>
+              <a href="https://www.instagram.com/gabeandangela/"><font-awesome-icon :icon="[ 'fab', 'instagram' ]" /></a>
               <a href="https://www.linkedin.com/in/angela-mclaughlin-609b2856/"><font-awesome-icon :icon="[ 'fab', 'linkedin' ]" /></a>
               </div>
             <p class="copyright">Gabe&Angie Co. © 2020</p>
