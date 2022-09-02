@@ -4,24 +4,16 @@
     <Header id="header" msg="Travel"/>
     
     <button type="button" class="btn btn-primary" v-scroll-to="'#videos'">Videos</button>    
-    <!--<button type="button" class="btn btn-primary" v-scroll-to="'#current'">May Trip</button>-->
     <button type="button" class="btn btn-primary" v-scroll-to="'#photos'">Photos</button>
-    <!--<button type="button" class="btn btn-primary" v-scroll-to="'#quote'">Fun Stuff</button>-->
     <button type="button" class="btn btn-primary" v-scroll-to="'#footer'">Contact Us</button>
 
     
     <Videos id="videos"/>
     <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button>    
-    
-    <!--<Current id="current" />
-    <div style="clear: both;"></div>
-    <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button>-->
 
     <Lightbox id="photos" />
     <div style="clear: both;"></div>
-    <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button> 
-    <!--<Quote v-bind:bodyprop="body" v-bind:authorprop="author" v-bind:imageprop="image" v-bind:nasaurlprop="nasaurl" v-bind:explainprop="explain" v-bind:titleprop="title"/>
-    <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button>-->
+    <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button>
     <Footer id="footer" />
     </div>
   </div>
@@ -32,9 +24,7 @@ import Videos from './components/Videos.vue'
 import Header from './components/Header.vue'
 import Lightbox from './components/Lightbox.vue'
 import axios from 'axios'
-//import Quote from './components/Quote.vue'
 import Footer from './components/Footer.vue'
-//import Current from './components/Current.vue'
 
 export default {
   name: 'App',
