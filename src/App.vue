@@ -15,6 +15,7 @@
     <div style="clear: both;"></div>
     <button type="button" class="btn btn-secondary btn-sm" v-scroll-to="'#header'">Back to Top</button>
     <Footer id="footer" />
+
     </div>
   </div>
 </template>
@@ -32,9 +33,7 @@ export default {
     Videos,
     Header,
     Lightbox,
-    //Quote,
-    Footer,
-    //Current
+    Footer
   },
   data(){
     return{
